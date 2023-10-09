@@ -11,25 +11,23 @@ import TermsEnglish from './components/termsPolicy/termsEn';
 import TermsMandarin from './components/termsPolicy/termsZh';
 import PolicyChinese from './components/termsPolicy/policyZh';
 import PolicyEnglish from './components/termsPolicy/policyEn';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className='--bs-primary'>
-      <Router>
+      <HashRouter>
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} />
-          <Route path='/mission' component={Mission} />
-          <Route path='/team' component={Team} />
-          <Route path='/joinus' component={JoinUs} />
-          <Route path='/terms-en' component={TermsEnglish} />
-          <Route path='/terms-zh' component={TermsMandarin} />
-          <Route path='/policy-en' component={PolicyEnglish} />
-          <Route path='/policy-zh' component={PolicyChinese} />
-        </Switch>
-      </Router>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' exact component={About} />
+        <Route path='/mission' component={Mission} />
+        <Route path='/team' component={Team} />
+        <Route path='/joinus' component={JoinUs} />
+        <Route path='/terms-en' component={TermsEnglish} />
+        <Route path='/terms-zh' component={TermsMandarin} />
+        <Route path='/policy-en' component={PolicyEnglish} />
+        <Route path='/policy-zh' component={PolicyChinese} />
+      </HashRouter>
     </div>
   );
 }
