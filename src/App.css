@@ -1,0 +1,89 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+#exampleInputEmail1{
+  width: 520px;
+}
+#inputDefault{
+  width: 520px;
+}
+#exampleTextarea{
+  width: 520px;
+}
+.textcolorwhite
+{
+  color: white;
+  
+}
+.bgwhite{
+  background: white;
+}
+.centralise{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  flex: 1;
+  flex-wrap: 'wrap';
+  flex-direction: 'row';
+}
+.sec3 {
+  max-width: 90%;
+}
+
+.courseinfovideo{
+  margin-top: 10%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.courseinfodes{
+  margin-left: 8% ;
+  margin-right: 6%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.colororange{
+  color:  rgb(255,110,20);
+}
+/*.home {
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}*/

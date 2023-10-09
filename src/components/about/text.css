@@ -1,0 +1,21 @@
+.TextCon{
+    /*background: #ebf1d1; FF884D  80EAFF*/
+    background: #FFE6CC;
+    
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 80vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.TextHeading{
+    padding-bottom: 10%;
+    color: black;
+}
+.TextDes{
+  /*  color: black;*/
+  font-size: x-large;
+  color: black;
+
+}
