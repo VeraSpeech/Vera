@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbarEdited'>
         <div className='navbar-container'>
-          <Link to='/vera' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Home
             {/* <img className = 'logonav' src = {logo} ></img> */}
           </Link>
