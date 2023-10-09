@@ -2,7 +2,7 @@
   "name": "testers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VeraSpeech.github.io/Vera",
+  "homepage": "www.veraspeechapp.hk",
   "dependencies": {
     "@iconify/icons-mdi": "^1.1.19",
     "@iconify/react": "^3.0.1",
