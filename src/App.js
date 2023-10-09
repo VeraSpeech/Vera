@@ -7,8 +7,10 @@ import About from './components/pages/About';
 import Mission from './components/pages/Mission';
 import Team from './components/pages/Team';
 import JoinUs from './components/pages/JoinUs';
-
-
+import TermsEnglish from './components/termsPolicy/termsEn';
+import TermsMandarin from './components/termsPolicy/termsZh';
+import PolicyChinese from './components/termsPolicy/policyZh';
+import PolicyEnglish from './components/termsPolicy/policyEn';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
           <Route path='/mission' component={Mission} />
           <Route path='/team' component={Team} />
           <Route path='/joinus' component={JoinUs} />
+          <Route path='/terms-en' component={TermsEnglish} />
+          <Route path='/terms-zh' component={TermsMandarin} />
+          <Route path='/policy-en' component={PolicyEnglish} />
+          <Route path='/policy-zh' component={PolicyChinese} />
         </Switch>
       </Router>
     </div>
