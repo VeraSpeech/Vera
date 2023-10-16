@@ -159,7 +159,10 @@ function TermsMandarin() {
           <ol type="a">
             <li>
               閣下一旦下載或使用本應用程式，即表示閣下同意我們不時更新{" "}
-              <a href="https://www.veraspeechapp.hk/#/terms-zh" target="_blank">
+              <a
+                href="https://www.veraspeechapp.hk/#/policy-zh"
+                target="_blank"
+              >
                 隱私政策條款
               </a>
               。

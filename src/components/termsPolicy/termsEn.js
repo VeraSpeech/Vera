@@ -261,7 +261,10 @@ function TermsEnglish() {
           <ol type="a">
             <li>
               By downloading or using the App, you agree to the terms of our{" "}
-              <a href="https://www.veraspeechapp.hk/#/terms-en" target="_blank">
+              <a
+                href="https://www.veraspeechapp.hk/#/policy-en"
+                target="_blank"
+              >
                 Privacy Policy
               </a>
               as updated from time to time.
