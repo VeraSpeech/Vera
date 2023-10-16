@@ -7,10 +7,10 @@ import About from './components/pages/About';
 import Mission from './components/pages/Mission';
 import Team from './components/pages/Team';
 import JoinUs from './components/pages/JoinUs';
-import TermsEnglish from './components/termsPolicy/termsEn';
-import TermsMandarin from './components/termsPolicy/termsZh';
-import PolicyChinese from './components/termsPolicy/policyZh';
-import PolicyEnglish from './components/termsPolicy/policyEn';
+import TermsEnglish from './components/pages/termsEn';
+import TermsMandarin from './components/pages/termsZh';
+import PolicyChinese from './components/pages/policyZh';
+import PolicyEnglish from './components/pages/policyEn';
 import { HashRouter, Route } from 'react-router-dom';
 
 function App() {

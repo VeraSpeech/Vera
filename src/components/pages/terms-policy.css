@@ -1,8 +1,8 @@
-body {
+.policy {
   background: #fff;
 }
 
-main {
+.policy main {
   max-width: 1440px;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ main {
   flex-direction: column;
 }
 
-main h1 {
+.policy h1 {
   font-family: Noto Sans;
   font-size: 40px;
   font-weight: 700;
@@ -19,22 +19,11 @@ main h1 {
   margin-bottom: 134px;
 }
 
-li {
+.policy li {
   margin-bottom: 20px;
   font-weight: 500;
 }
 
-li:first-child {
+.policy li:first-child {
   margin-top: 10px;
-}
-
-@media only screen and (max-width: 639px) {
-  main {
-    padding: 128px 24px;
-  }
-
-  main h1 {
-    font-size: 28px;
-    margin-bottom: 72px;
-  }
 }
