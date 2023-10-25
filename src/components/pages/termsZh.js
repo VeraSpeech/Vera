@@ -77,6 +77,7 @@ function TermsMandarin() {
                 <a href="https://policies.google.com/terms" target="_blank">
                   Google Play Services
                 </a>
+                <br></br>
                 <a
                   href="https://www.apple.com/legal/internet-services/itunes/"
                   target="_blank"
@@ -176,7 +177,9 @@ function TermsMandarin() {
             <ol type="a">
               <li>
                 如果閣下對我們的條款及細則有任何疑問或建議，請透過{" "}
-                <a href="mailto:admin@veraspeechapp.hk">admin@veraspeechapp.hk</a>
+                <a href="mailto:admin@veraspeechapp.hk">
+                  admin@veraspeechapp.hk
+                </a>
                 與我們聯繫。
               </li>
             </ol>
