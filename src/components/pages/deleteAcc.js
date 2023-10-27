@@ -8,8 +8,10 @@ function DeleteAcc() {
     <div className="policy">
       <main>
         <h1>Instructions for account deletion</h1>
-        You can permanently delete your account through one of the following
-        ways:
+        <p>
+          You can permanently delete your account through one of the following
+          ways:
+        </p>
         <ol>
           <li>
             Choose “Delete Account” on the “Settings” page in the application.
@@ -22,7 +24,7 @@ function DeleteAcc() {
             for the application.
           </li>
         </ol>
-        Note:
+        <p>Note:</p>
         <ul>
           <li>
             After your account has been deleted, you won't be able to reactivate
@@ -34,7 +36,7 @@ function DeleteAcc() {
             was provided when creating the account.
           </li>
         </ul>
-        你可從以下其中一個方法刪除帳號:
+        <p>你可從以下其中一個方法刪除帳號:</p>
         <ol>
           <li>於應用程式中的「設定」選擇「刪除帳號」。</li>
           <li>
@@ -43,7 +45,7 @@ function DeleteAcc() {
             並在電子郵件中註明您要求刪除帳號，及提供您於應用程式註冊帳號時所使用的電郵地址。
           </li>
         </ol>
-        注意：
+        <p>注意：</p>
         <ul>
           <li>刪除帳戶後，您將無法重新啟動或存取帳戶內的資訊。</li>
           <li>
